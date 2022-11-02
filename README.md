@@ -9,8 +9,8 @@ El diseño esta basado en un copyrigth de otras paginas de comercios conocidas d
 * [LinkedIn](https://www.linkedin.com/in/c-alvarez98/)
 * [Mi Porfolio](https://c-alvarez98.github.io/Mi-perfil/)
 
-## Ver ejemplos en vivo
-- []
+## Ingresar a la Pagina del Proyecto
+- [https://c-alvarez98.github.io/Proyecto-Electro./]
 
 ## Instalacion
 Este proyecto no necesita instalacion. Simplemente abre la carpeta o haz doble click en el .html
