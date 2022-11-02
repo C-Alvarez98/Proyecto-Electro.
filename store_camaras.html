@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Bienvenidos Electro Compras</title>
+
+ 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+ 		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+ 		<link type="text/css" rel="stylesheet" href="css/slick.css"/>
+ 		<link type="text/css" rel="stylesheet" href="css/slick-theme.css"/>
+ 		<link type="text/css" rel="stylesheet" href="css/nouislider.min.css"/>
+ 		<link rel="stylesheet" href="css/font-awesome.min.css">
+ 		<link type="text/css" rel="stylesheet" href="css/style.css"/>
+
+    </head>
+	<body>
+		<header>
+			<div id="top-header">
+				<div class="container">
+					<ul class="header-links pull-left">
+						<li><a href="#"><i class="fa fa-phone"></i> +543814146349</a></li>
+						<li><a href="#"><i class="fa fa-envelope-o"></i> alvarez.cf98@gmail.com</a></li>
+						<li><a href="#"><i class="fa fa-map-marker"></i> Argentina, Tucuman</a></li>
+					</ul>
+					<ul class="header-links pull-right">
+						<li><a href="#"><i class="fa fa-dollar"></i> $$</a></li>
+						<li><a href="#"><i class="fa fa-user-o"></i> Mi Cuenta</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div id="header">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3">
+							<div class="header-logo">
+								<a href="index.html" class="logo">
+									<img src="./img/logo.png" alt="">
+								</a>
+							</div>
+						</div>
+
+						<div class="col-md-6">
+							<div class="header-search">
+								<form>
+									<select class="input-select">
+										<option value="0">Todas las categorias</option>
+										<option value="1">Notebook</option>
+										<option value="2">Smartphones</option>
+										<option value="3">Camaras</option>
+										<option value="4">Accesorios</option>
+									</select>
+									<input class="input" placeholder="Buscar Aqui">
+									<button class="search-btn">Buscar </button>
+								</form>
+							</div>
+						</div>
+
+						<div class="col-md-3 clearfix">
+							<div class="header-ctn">
+								<div>
+									<a href="#">
+										<i class="fa fa-heart-o"></i>
+										<span>Lista de deseos</span>
+										<div class="qty">0</div>
+									</a>
+								</div>
+
+								<div class="dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+										<i class="fa fa-shopping-cart"></i>
+										<span>Su Carrito</span>
+										<div class="qty">0</div>
+									</a>
+									<div class="cart-dropdown">
+										<div class="cart-list">
+										  <div class="product-widget">
+												<div class="product-img"> </div>
+												<button class="delete"><i class="fa fa-close"></i></button>
+											</div>
+
+											<div class="product-widget">
+												<div class="product-img">
+												</div>
+											</div>
+										</div>
+										<div class="cart-summary">
+											<small> Articulos seleccionados</small>
+											<h5>SUBTOTAL: $ 0</h5>
+										</div>
+										<div class="cart-btns">
+											<a href="#">Ver Carrito</a>
+											<a href="#">Revisar  <i class="fa fa-arrow-circle-right"></i></a>
+										</div>
+									</div>
+								</div>
+
+								<div class="menu-toggle">
+									<a href="#">
+										<i class="fa fa-bars"></i>
+										<span>Menu</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<nav id="navigation">
+			<div class="container">
+				<div id="responsive-nav">
+					<ul class="main-nav nav navbar-nav">
+						<li><a href="index.html">Inicio</a></li>
+						<li><a href="store_notebook.html">Notebook</a></li>
+						<li><a href="store_smartphones.html">Smartphones</a></li>
+						<li class="active"><a href="store_camaras.html">Camaras</a></li>
+						<li><a href="store_accesorios.html">Accesorios</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div id="breadcrumb" class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<ul class="breadcrumb-tree">
+							<li><a href="index.html">Inicio</a></li>
+							<li class="active"><a href="store_camaras.html">Coleccion Camaras</a></li>							
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="section">
+			<div class="container">
+				<div class="row">
+					<div id="aside" class="col-md-3">
+						<div class="aside">
+							<h3 class="aside-title">Categorias</h3>
+							<div class="checkbox-filter">
+
+								<div class="input-checkbox">
+									<input type="checkbox" id="category-1">
+									<label for="category-1">
+										<span></span>
+										Notebook
+										<small>(4)</small>
+									</label>
+								</div>
+
+								<div class="input-checkbox">
+									<input type="checkbox" id="category-2">
+									<label for="category-2">
+										<span></span>
+										Smartphones
+										<small>(2)</small>
+									</label>
+								</div>
+
+								<div class="input-checkbox">
+									<input type="checkbox" id="category-3">
+									<label for="category-3">
+										<span></span>
+										Camaras
+										<small>(1)</small>
+									</label>
+								</div>
+
+								<div class="input-checkbox">
+									<input type="checkbox" id="category-4">
+									<label for="category-4">
+										<span></span>
+										Accesorios
+										<small>(2)</small>
+									</label>
+								</div>
+							</div>
+						</div>
+
+						<div class="aside">
+							<h3 class="aside-title">Precio</h3>
+							<div class="price-filter">
+								<div id="price-slider"></div>
+								<div class="input-number price-min">
+									<input id="price-min" type="number">
+									<span class="qty-up">+</span>
+									<span class="qty-down">-</span>
+								</div>
+								<span>-</span>
+								<div class="input-number price-max">
+									<input id="price-max" type="number">
+									<span class="qty-up">+</span>
+									<span class="qty-down">-</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="aside">
+							<h3 class="aside-title">Marca</h3>
+							<div class="checkbox-filter">
+								<div class="input-checkbox">
+									<input type="checkbox" id="brand-1">
+									<label for="brand-1">
+										<span></span>
+										NIKON
+										<small>(1)</small>
+									</label>
+								</div>
+								<div class="input-checkbox">
+									<input type="checkbox" id="brand-2">
+									<label for="brand-2">
+										<span></span>
+										REKAN
+										<small>(1)</small>
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div id="store" class="col-md-9">
+						<div class="store-filter clearfix">
+							<div class="store-sort">
+								<label>
+									Ordenar por:
+									<select class="input-select">
+										<option value="0">Popular</option>
+										<option value="1">Precio</option>
+									</select>
+								</label>
+
+								<label>
+									Mostrar:
+									<select class="input-select">
+										<option value="0">5</option>
+										<option value="1">10</option>
+									</select>
+								</label>
+							</div>
+							<ul class="store-grid">
+								<li class="active"><i class="fa fa-th"></i></li>
+								<li><a href="#"><i class="fa fa-th-list"></i></a></li>
+							</ul>
+						</div>
+
+						<div class="row">
+							<div class="col-md-4 col-xs-6">
+								<div class="product">
+									<div class="product-img">
+										<img src="./img/camara01.png" alt="">
+									</div>
+									<div class="product-body">
+										<p class="product-category">Camaras</p>
+										<h3 class="product-name"><a href="product_camara_nikon.html">Camara digital nikon b500</a></h3>
+										<h4 class="product-price">$100.000.00 <del class="product-old-price">$120.000.00</del></h4>
+										<div class="product-rating">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+										<div class="product-btns">
+											<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">añadir a lista de deseos</span></button>
+										</div>
+									</div>
+									<div class="add-to-cart">
+										<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i>añadir al carrito</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4 col-xs-6">
+								<div class="product">
+									<div class="product-img">
+										<img src="./img/product09.png" alt="">
+										<div class="product-label">
+											<span class="sold-out">Agotado</span>
+										</div>
+									</div>
+									<div class="product-body">
+										<p class="product-category">Camaras</p>
+										<h3 class="product-name"><a href="#">Camara Rekan PrestoX4</a></h3>
+										<h4 class="product-price">$3.575.00 <del class="product-old-price">$5.500.00</del></h4>
+										<div class="product-rating">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star-o"></i>
+										</div>
+										<div class="product-btns">
+											<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">añadir a lista de deseos</span></button>
+										</div>
+									</div>
+									<div class="add-to-cart">
+										<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i>añadir al carrito</button>
+									</div>
+								</div>
+							</div>	
+						</div>
+
+						<div class="store-filter clearfix">
+							<span class="store-qty">Mostrar Camaras</span>
+							<ul class="store-pagination">
+								<li class="active">1</li>
+								<li><a href="#">2</a></li>
+							    <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="newsletter" class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="newsletter">
+							<p>Suscríbase a la <strong>Carta de Noticias</strong></p>
+							<form>
+								<input class="input" type="email" placeholder="Introduce tu correo electrónico">
+								<button class="newsletter-btn"><i class="fa fa-envelope"></i> Suscribete</button>
+							</form>
+							<ul class="newsletter-follow">
+								<li>
+									<a href="#"><i class="fa fa-facebook"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-instagram"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-pinterest"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+		<footer id="footer">
+			<div class="section">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">Sobre nosotros</h3>
+								<p>Somos un microemprendimiento realizando sus primeros pasos en
+									el rubro de la informatica, estamos ubicados en la localidad
+									de San Miguel de Tucuman.</p>
+								<ul class="footer-links">
+									<li><a href="#"><i class="fa fa-map-marker"></i>Argentina, Tucuman</a></li>
+									<li><a href="#"><i class="fa fa-phone"></i>+543814146349</a></li>
+									<li><a href="#"><i class="fa fa-envelope-o"></i>alvarez.cf98@gmail.com</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">Categorias</h3>
+								<ul class="footer-links">
+									<li><a href="#">Ofertas</a></li>
+									<li><a href="#">Notebook</a></li>
+									<li><a href="#">Smartphones</a></li>
+									<li><a href="#">Camaras</a></li>
+									<li><a href="#">Accesorios</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="clearfix visible-xs"></div>
+
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">Informacion</h3>
+								<ul class="footer-links">
+									<li><a href="#">Sobre Nosotros</a></li>
+									<li><a href="#">Contactenos</a></li>
+									<li><a href="#">Política de privacidad</a></li>
+									<li><a href="#">Pedidos y devoluciones</a></li>
+									<li><a href="#">Términos y condiciones</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">Servicios</h3>
+								<ul class="footer-links">
+									<li><a href="#">Mi cuenta</a></li>
+									<li><a href="#">Ver Carrito</a></li>
+									<li><a href="#">Lista de deseos</a></li>
+									<li><a href="#">Seguir mi pedido</a></li>
+									<li><a href="#">Ayuda</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="bottom-footer" class="section">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<ul class="footer-payments">
+								<li><a href="#"><i class="fa fa-cc-visa"></i></a></li>
+								<li><a href="#"><i class="fa fa-credit-card"></i></a></li>
+								<li><a href="#"><i class="fa fa-cc-paypal"></i></a></li>
+								<li><a href="#"><i class="fa fa-cc-mastercard"></i></a></li>
+								<li><a href="#"><i class="fa fa-cc-discover"></i></a></li>
+								<li><a href="#"><i class="fa fa-cc-amex"></i></a></li>
+							</ul>
+							<span class="saludo">
+								<p>
+								  Hecho con <i class="fa fa-heart-o" aria-hidden="true"></i> por
+								  	<a href="https://github.com/C-Alvarez98" target="_blank">Cristian</a>
+								</p>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- jQuery Plugins -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="js/nouislider.min.js"></script>
+		<script src="js/jquery.zoom.min.js"></script>
+		<script src="js/main.js"></script>
+
+	</body>
+</html>
